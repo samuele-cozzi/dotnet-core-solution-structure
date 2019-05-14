@@ -1,4 +1,5 @@
 ﻿using System;
+using dotnetcore_classlibrary;
 
 namespace dotnetcore_console
 {
@@ -6,7 +7,8 @@ namespace dotnetcore_console
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Hello World 1 !!");
+            Class1.HelloClass();
         }
     }
 }
